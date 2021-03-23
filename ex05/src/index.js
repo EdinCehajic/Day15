@@ -6,7 +6,7 @@ function myObject() {
 
     // Only
 
-
+    Object.freeze(MATH_CONSTANTS);
     // Only
     try {
         MATH_CONSTANTS.E = 23;

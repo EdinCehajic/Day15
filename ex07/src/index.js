@@ -1,6 +1,5 @@
-const myArr = require("../../ex04/src");
 
-var myArray = function(array1, array2) {
+const myArray = (array1, array2) => {
     "use strict";
     return array1.concat(array2);
 };

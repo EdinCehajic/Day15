@@ -1,6 +1,6 @@
 // Only
-var myName;
-var message;
+let myName;
+let message;
  // Only
 
  myName = "Padawans";

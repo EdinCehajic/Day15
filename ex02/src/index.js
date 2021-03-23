@@ -2,13 +2,13 @@ function checkVariableScope( {
     'use strict';
 
     // Only
-    var i = 'function variable';
+    let i = 'function variable';
     // Only
 
     if (true) {
         // Only
 
-        i = 'block variable';
+       let i = 'block variable';
         // Only
 
         console.log('Scope i is: ', i);

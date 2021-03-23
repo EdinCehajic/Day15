@@ -1,6 +1,6 @@
 // Only
 
-var arena = function() {
+const arena = () => {
     "use strict";
     return new Date();
 };
